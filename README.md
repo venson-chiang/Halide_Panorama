@@ -1,2 +1,2 @@
 # Halide_Panorama
-Panorama using Halide
+Panorama processing using Halide
