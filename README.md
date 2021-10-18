@@ -7,7 +7,8 @@ armadillo:
 
 # Input images
 Input images are reference from https://github.com/aivanov93/panorama/tree/master/images
-<img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-6.png" width="15%" height="15%"> <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-5.png" width="15%" height="15%"> <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-4.png" width="15%" height="15%"> <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-3.png" width="15%" height="15%"> <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-2.png" width="15%" height="15%"> <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-1.png" width="15%" height="15%">
+
+<img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-6.png" width="18%" height="18%"> <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-5.png" width="18%" height="18%"> <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-4.png" width="18%" height="18%"> <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-3.png" width="18%" height="18%"> <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/images/vancouver-2.png" width="18%" height="18%"> 
 
 # Output image
 <img src="https://github.com/venson-chiang/Halide_Panorama/blob/main/output_images/vancouver-panorama.png" width="100%" height="100%">
