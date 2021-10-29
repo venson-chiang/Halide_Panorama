@@ -2,9 +2,9 @@
 Panorama using Halide
 
 # Requirement
-Halide: 12.0.0 or above
+1.Halide: 12.0.0 or above
 
-armadillo: 
+2.armadillo: 
 
 # Methods
 1.Apply Harris corner method to find corners in images. 
