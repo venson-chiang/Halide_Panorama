@@ -9,11 +9,13 @@ armadillo:
 # Methods
 1.Apply Harris corner method to find corners in images. 
 
-2.Apply laplacian pyramid and deep learning model to correct exposure of image.
+2.Find correspondent corners of each adjacent images. 
 
-3.Apply Bilateral Guided Upsampling to get high resolution exposure corrected image. 
+3.Apply Ransanc method to find best Homography matrix of images from correspondent corners.
 
-4.Fuse input image and exposure corrected image to get better performance of exposure correction.
+4.Transform images with Homography matrix.
+
+5.Combine all transformed images.
 
 # Input images
 Input images are reference from https://github.com/aivanov93/panorama/tree/master/images
@@ -36,4 +38,4 @@ make test
 ```
 
 # Reference
-Panorama model is reference tohttps://github.com/aivanov93/panorama
+Panorama model is reference to https://github.com/aivanov93/panorama
