@@ -1,5 +1,5 @@
 # Halide_Panorama
-Panorama processing using Halide
+Panorama using Halide
 
 # Requirement
 Halide: 12.0.0 or above
