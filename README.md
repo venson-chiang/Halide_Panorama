@@ -4,18 +4,20 @@ Panorama using Halide
 # Requirement
 1.Halide: 12.0.0 or above
 
-2.armadillo: 
+2.armadillo: 10.6.2
 
 # Methods
-1.Apply Harris corner method to find corners in images. 
+1.Compute harris corners, and features around corners. 
 
-2.Find correspondent corners of each adjacent images. 
+2.Find the best pair corners of on every two adjacent images. 
 
-3.Apply Ransanc method to find best Homography matrix of images from correspondent corners.
+3.Apply Ransanc method to find best Homography matrix of images from pair corners.
 
-4.Transform images with Homography matrix.
+4.Calculate boundary box of output image.
 
-5.Combine all transformed images.
+4.Transform images with Homography matrix to output boundary box coordinate.
+
+5.stitch all transformed images.
 
 # Input images
 Input images are reference from https://github.com/aivanov93/panorama/tree/master/images
