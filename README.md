@@ -9,7 +9,7 @@ Panorama using Halide
 # Methods
 1.Compute harris corners, and features around corners. 
 
-2.Find the best pair corners of on every two adjacent images. 
+2.Find the best pair corners of every two adjacent images. 
 
 3.Apply Ransanc method to find best Homography matrix of images from pair corners.
 
