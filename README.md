@@ -11,7 +11,7 @@ Panorama using Halide
 
 2.Find the best pair corners of every two adjacent images. 
 
-3.Apply Ransanc method to find best Homography matrix of images from pair corners.
+3.Apply Ransac method to find best Homography matrix of images from pair corners.
 
 4.Calculate boundary box of output image.
 
